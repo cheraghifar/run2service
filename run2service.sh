@@ -38,3 +38,6 @@ echo "" >> $arg1.service
 echo "# Make it accessible to other users " >> $arg1.service
 echo WantedBy = multi-user.target >> $arg1.service
 
+echo "systemctl enable " $arg1 >> tmp2.sh
+echo "systemctl daemon-reload" >> tmp2.sh
+echo "systemctl start " $arg1 >> tmp2.sh
