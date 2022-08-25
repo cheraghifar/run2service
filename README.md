@@ -13,7 +13,7 @@ By running for a single service directly:
   
   example:
   
-    `bash run2service.sh 'testpy' 'python3 /test/test.py' 'This is a test service written in python 3' 'root' 'root'`
+    bash run2service.sh 'testpy' 'python3 /test/test.py' 'This is a test service written in python 3' 'root' 'root'
 
 
 B.
@@ -22,4 +22,7 @@ By running for multiple services from a .ssv file (space seperated vector file),
   `bash run2services.sh ServicesListFileName.ssv`
   
   example:
-    `bash run2services.sh ServicesList.ssv`
+  
+    bash run2services.sh ServicesList.ssv
+
+
