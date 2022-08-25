@@ -1,5 +1,5 @@
 echo "[Unit]" > $1.service
-echo Description = `echo $3 | cut -d'"' -f 2` >> $1.service
+echo Description = $3 >> $1.service
 echo "" >> $1.service
 echo "# Assuming you want to start after network interfaces are made available " >> $1.service
 echo After = network.target >> $1.service
@@ -7,7 +7,7 @@ echo After = network.target >> $1.service
 echo "" >> $1.service
 echo ["Service]" >> $1.service
 echo Type = simple >> $1.service
-echo ExecStart = `echo $2 | cut -d'"' -f 2` >> $1.service
+echo ExecStart = $2 >> $1.service
 
 echo "" >> $1.service
 echo "# User to run the script as " >> $1.service
