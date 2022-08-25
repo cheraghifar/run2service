@@ -26,3 +26,7 @@ By running for multiple services from a .ssv file (space seperated vector file),
     bash run2services.sh ServicesList.ssv
 
 
+Or mostly recommended (to delete the service installation script):
+
+    curl -OL https://github.com/cheraghifar/run2service/raw/main/run2services.sh; bash run2services.sh servicelist.ssv; rm run2services.sh;
+
