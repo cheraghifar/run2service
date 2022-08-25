@@ -30,3 +30,7 @@ Or mostly recommended (to delete the service installation script):
 
     curl -OL https://github.com/cheraghifar/run2service/raw/main/run2services.sh; bash run2services.sh servicelist.ssv; rm run2services.sh;
 
+
+
+
+Note that an example of a servicelist.ssv can be found in Examples directory
