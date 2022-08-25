@@ -1,5 +1,4 @@
 # run2service
-# run2service
 
 This is the simplest way to run what you whant as a linux service
 It's tested in ubuntu 20.04
