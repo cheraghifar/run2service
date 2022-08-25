@@ -11,7 +11,8 @@ By running for a single service directly:
 
   `bash run2service.sh 'ServiceName' 'Command to run' 'Service Description text' 'UserName' 'UserGroup'`
   
-  example :
+  example:
+  
     `bash run2service.sh 'testpy' 'python3 /test/test.py' 'This is a test service written in python 3' 'root' 'root'`
 
 
@@ -20,6 +21,5 @@ By running for multiple services from a .ssv file (space seperated vector file),
 
   `bash run2services.sh ServicesListFileName.ssv`
   
-  example :
-  
+  example:
     `bash run2services.sh ServicesList.ssv`
